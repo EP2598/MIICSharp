@@ -14,6 +14,7 @@ namespace LinqImplementation.Method
         #endregion
 
         //Iseng tambah comment
+        //Comment untuk buat branch baru
         public void AddEmployee(Employee emp, bool IsError = false, int step = 1)
         {
             conn = new SqlConnection(connString);
