@@ -13,6 +13,7 @@ namespace LinqImplementation.Method
         string connString = "Data Source=LAPTOP-L3R41S4O;Initial Catalog=MCC66;User ID=sa;Password=password;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         #endregion
 
+        //Iseng tambah comment
         public void AddEmployee(Employee emp, bool IsError = false, int step = 1)
         {
             conn = new SqlConnection(connString);
